@@ -4,9 +4,42 @@
 	align-items: center;
 }
 
-.front {
+.front, .members, .projects, .mail, .footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
+}
+
+.front {
+	height: auto;
+	max-height: 400px;
+}
+
+table {
+	border-collapse: collapse;
+	align-items: center;
+	text-align: center;
+}
+th, td {
+	border: 1px solid black;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.footer {
+	color: white;
+	background: black;
 }
